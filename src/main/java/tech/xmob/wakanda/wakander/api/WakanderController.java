@@ -1,4 +1,4 @@
-package tech.xmob.mongodb.api;
+package tech.xmob.wakanda.wakander.api;
 
 import javax.validation.Valid;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import tech.xmob.mongodb.model.Wakander;
-import tech.xmob.mongodb.service.WakandaService;
+import tech.xmob.wakanda.wakander.model.Wakander;
+import tech.xmob.wakanda.wakander.service.WakandaService;
 
 @RestController
 @AllArgsConstructor(access = AccessLevel.PRIVATE)

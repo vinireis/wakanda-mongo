@@ -1,0 +1,5 @@
+spring:
+  data:    mongodb:
+      authentication-database: admin
+      uri: mongodb://root:root@127.0.0.1:27017/wakanda?authSource=admin
+##      uri: mongodb://mongoUser:mongoPass@127.0.0.1:27017/wakanda?authSource=admin

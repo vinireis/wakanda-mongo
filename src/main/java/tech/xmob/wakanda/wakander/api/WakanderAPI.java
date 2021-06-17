@@ -1,4 +1,4 @@
-package tech.xmob.mongodb.api;
+package tech.xmob.wakanda.wakander.api;
 
 import javax.validation.Valid;
 

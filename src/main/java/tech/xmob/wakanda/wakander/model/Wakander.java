@@ -1,4 +1,4 @@
-package tech.xmob.mongodb.model;
+package tech.xmob.wakanda.wakander.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -7,6 +7,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import tech.xmob.wakanda.jornadaWakander.model.JornadaWakander;
 
 @Document
 @Getter
@@ -17,6 +18,8 @@ public class Wakander {
 	private String codigo;
 	private String nome;
 	private Email email;
+	
+	private JornadaWakander jornadaWakander;
 	
 	public String getEmail() {
 		return this.email.getEmail();

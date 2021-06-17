@@ -1,4 +1,4 @@
-package tech.xmob.mongodb.model;
+package tech.xmob.wakanda.wakander.model;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

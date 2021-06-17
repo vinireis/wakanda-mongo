@@ -1,11 +1,11 @@
-package tech.xmob.mongodb.api;
+package tech.xmob.wakanda.wakander.api;
 
 import javax.validation.Valid;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Value;
-import tech.xmob.mongodb.model.Wakander;
+import tech.xmob.wakanda.wakander.model.Wakander;
 
 @Value
 @Valid
