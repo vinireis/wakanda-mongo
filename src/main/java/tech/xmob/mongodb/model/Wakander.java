@@ -17,4 +17,8 @@ public class Wakander {
 	private String codigo;
 	private String nome;
 	private Email email;
+	
+	public String getEmail() {
+		return this.email.getEmail();
+	}
 }
